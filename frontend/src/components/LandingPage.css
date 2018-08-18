@@ -1,0 +1,16 @@
+.page-background {
+    background: url(https://images.pexels.com/photos/448835/pexels-photo-448835.jpeg?cs=srgb&dl=book-book-pages-college-448835.jpg&fm=jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+.cta {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5rem;
+}
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
