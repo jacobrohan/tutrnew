@@ -27,9 +27,7 @@ app.get('/dashboard', passport.authenticate('jwt', {session:false}),(req,res) =>
     data: [
       {
         "subject": "Advanced ReactJS",
-        "tutr": "Mustafa"
-        "time": "4 pm",
-        "date": "25th Aug, 2018",
+        "tutr": "Mustafa",
         "location": "Dubai",
         "number of participants": "5"
       }
